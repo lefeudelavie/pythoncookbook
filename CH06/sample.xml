@@ -1,0 +1,1594 @@
+<?xml version="1.0"?>
+<peakflow version="1.0" release="8.0.1">
+  <query id="query1" type="mft">
+    <time start_ascii="3/13/2018 8:51:00 +0000" end_ascii="3/13/2018 9:25:19 +0000"/>
+    <unit type="bps"/>
+    <search limit="100"/>
+    <id>46526</id>
+    <category>top_talker</category>
+    <boundary>mo</boundary>
+    <dataset name="dest_addr_bytes"/>
+    <dataset name="dest_tcp_ports_bytes"/>
+    <dataset name="dest_udp_ports_bytes"/>
+    <dataset name="protos_bytes"/>
+    <dataset name="src_addr_bytes"/>
+    <dataset name="src_tcp_ports_bytes"/>
+    <dataset name="src_udp_ports_bytes"/>
+  </query>
+  <query-reply>
+    <time start="1520931060" end="1520933115" start_ascii="03/13/2018 08:51:00 +0000" end_ascii="03/13/2018 09:25:15 +0000"/>
+    <sample_info duration="60" count="35" earliest_bin="1520931060" latest_bin="1520933115" agg_bin_offset="0" agg_bins="35" earliest_bin_ascii="03/13/2018 08:51:00 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000" earliest_bin_seen="1520931015" earliest_bin_seen_offset="0" earliest_bin_seen_ascii="03/13/2018 08:50:15 +0000" latest_bin_seen="1520933115" latest_bin_seen_offset="34" latest_bin_seen_ascii="03/13/2018 09:25:15 +0000"/>
+    <instance id="2">
+      <dataset name="dest_addr_bytes">
+        <item id="112.96.0.5/32" name="112.96.0.5/32">
+          <key id="112.96.0.5/32" name="112.96.0.5/32"/>
+          <class type="value">
+            <current value="459412684"/>
+            <avg value="327894679"/>
+            <max value="459412684"/>
+            <pct95 value="447162316"/>
+            <sample value="0|0|433056768|430040678|424009011|441271483|202214638|429113514|429437696|422571417|374034892|343875720|355335424|364105233|352925184|346705032|350138828|346473045|362341785|354779767|174930261|172934894|447162316|164397192|456210449|292277350|174837452|412779733|360393830|350371310|346380322|392363298|340348552|169084040|459412684"/>
+            <linear_fit offset="396190081.138146" slope="-2690166.463904"/>
+          </class>
+        </item>
+      </dataset>
+      <dataset name="protos_bytes">
+        <item id="1" name="icmp">
+          <key id="1" name="icmp"/>
+          <class type="value">
+            <current value="459412684"/>
+            <avg value="327894679"/>
+            <max value="459412684"/>
+            <pct95 value="447162316"/>
+            <sample value="0|0|433056768|430040678|424009011|441271483|202214638|429113514|429437696|422571417|374034892|343875720|355335424|364105233|352925184|346705032|350138828|346473045|362341785|354779767|174930261|172934894|447162316|164397192|456210449|292277350|174837452|412779733|360393830|350371310|346380322|392363298|340348552|169084040|459412684"/>
+            <linear_fit offset="396190081.138146" slope="-2690166.463904"/>
+          </class>
+        </item>
+      </dataset>
+      <dataset name="src_addr_bytes">
+        <item id="211.96.112.2/32" name="211.96.112.2/32">
+          <key id="211.96.112.2/32" name="211.96.112.2/32"/>
+          <class type="value">
+            <current value="459412684"/>
+            <avg value="327894679"/>
+            <max value="459412684"/>
+            <pct95 value="447162316"/>
+            <sample value="0|0|433056768|430040678|424009011|441271483|202214638|429113514|429437696|422571417|374034892|343875720|355335424|364105233|352925184|346705032|350138828|346473045|362341785|354779767|174930261|172934894|447162316|164397192|456210449|292277350|174837452|412779733|360393830|350371310|346380322|392363298|340348552|169084040|459412684"/>
+            <linear_fit offset="396190081.138146" slope="-2690166.463904"/>
+          </class>
+        </item>
+      </dataset>
+    </instance>
+    <status_summary time="0.22"/>
+    <status type="success" collector="10.255.255.2" gid="115" name="CP-KXC-1" time="0.20" bytes="1852" items="3" earliest_bin="1520931015" latest_bin="1520933115" earliest_bin_ascii="03/13/2018 08:50:15 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000"/>
+    <status type="success" collector="10.255.252.2" gid="509" name="cp1" time="0.15" bytes="381" items="0" earliest_bin="1520931015" latest_bin="1520933115" earliest_bin_ascii="03/13/2018 08:50:15 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000"/>
+  </query-reply>
+<query id="query1" type="mft">
+    <time start_ascii="3/13/2018 8:51:00 +0000" end_ascii="3/13/2018 9:25:20 +0000"/>
+    <unit type="pps"/>
+    <search limit="100"/>
+    <id>46526</id>
+    <category>top_talker</category>
+    <boundary>mo</boundary>
+    <dataset name="dest_addr_packets"/>
+    <dataset name="dest_tcp_ports_packets"/>
+    <dataset name="dest_udp_ports_packets"/>
+    <dataset name="protos_packets"/>
+    <dataset name="src_addr_packets"/>
+    <dataset name="src_tcp_ports_packets"/>
+    <dataset name="src_udp_ports_packets"/>
+  </query><query-reply>
+    <time start="1520931060" end="1520933115" start_ascii="03/13/2018 08:51:00 +0000" end_ascii="03/13/2018 09:25:15 +0000"/>
+    <sample_info duration="60" count="35" earliest_bin="1520931060" latest_bin="1520933115" agg_bin_offset="0" agg_bins="35" earliest_bin_ascii="03/13/2018 08:51:00 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000" earliest_bin_seen="1520931015" earliest_bin_seen_offset="0" earliest_bin_seen_ascii="03/13/2018 08:50:15 +0000" latest_bin_seen="1520933115" latest_bin_seen_offset="34" latest_bin_seen_ascii="03/13/2018 09:25:15 +0000"/>
+    <instance id="2">
+      <dataset name="dest_addr_packets">
+        <item id="112.96.0.5/32" name="112.96.0.5/32">
+          <key id="112.96.0.5/32" name="112.96.0.5/32"/>
+          <class type="value">
+            <current value="165018"/>
+            <avg value="117777"/>
+            <max value="165018"/>
+            <pct95 value="160618"/>
+            <sample value="0|0|155551|154468|152302|158502|72634|154135|154252|151785|134351|123518|127634|130784|126769|124534|125768|124451|130151|127435|62834|62117|160618|59050|163868|104984|62800|148268|129451|125851|124418|140935|122251|60734|165018"/>
+            <linear_fit offset="142309.088012" slope="-966.294452"/>
+          </class>
+        </item>
+      </dataset>
+      <dataset name="protos_packets">
+        <item id="1" name="icmp">
+          <key id="1" name="icmp"/>
+          <class type="value">
+            <current value="165018"/>
+            <avg value="117777"/>
+            <max value="165018"/>
+            <pct95 value="160618"/>
+            <sample value="0|0|155551|154468|152302|158502|72634|154135|154252|151785|134351|123518|127634|130784|126769|124534|125768|124451|130151|127435|62834|62117|160618|59050|163868|104984|62800|148268|129451|125851|124418|140935|122251|60734|165018"/>
+            <linear_fit offset="142309.088012" slope="-966.294452"/>
+          </class>
+        </item>
+      </dataset>
+      <dataset name="src_addr_packets">
+        <item id="211.96.112.2/32" name="211.96.112.2/32">
+          <key id="211.96.112.2/32" name="211.96.112.2/32"/>
+          <class type="value">
+            <current value="165018"/>
+            <avg value="117777"/>
+            <max value="165018"/>
+            <pct95 value="160618"/>
+            <sample value="0|0|155551|154468|152302|158502|72634|154135|154252|151785|134351|123518|127634|130784|126769|124534|125768|124451|130151|127435|62834|62117|160618|59050|163868|104984|62800|148268|129451|125851|124418|140935|122251|60734|165018"/>
+            <linear_fit offset="142309.088012" slope="-966.294452"/>
+          </class>
+        </item>
+      </dataset>
+    </instance>
+    <status_summary time="0.33"/>
+    <status type="success" collector="10.255.255.2" gid="115" name="CP-KXC-1" time="0.20" bytes="1561" items="3" earliest_bin="1520931015" latest_bin="1520933115" earliest_bin_ascii="03/13/2018 08:50:15 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000"/>
+    <status type="success" collector="10.255.252.2" gid="509" name="cp1" time="0.32" bytes="381" items="0" earliest_bin="1520931015" latest_bin="1520933115" earliest_bin_ascii="03/13/2018 08:50:15 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000"/>
+  </query-reply><query id="query1" type="mft">
+    <time start_ascii="3/13/2018 8:51:00 +0000" end_ascii="3/13/2018 9:25:20 +0000"/>
+    <unit type="bps"/>
+    <search limit="100"/>
+    <id>46526</id>
+    <category>top_talker</category>
+    <boundary>net</boundary>
+    <dataset name="dest_addr_bytes"/>
+    <dataset name="dest_tcp_ports_bytes"/>
+    <dataset name="dest_udp_ports_bytes"/>
+    <dataset name="protos_bytes"/>
+    <dataset name="src_addr_bytes"/>
+    <dataset name="src_tcp_ports_bytes"/>
+    <dataset name="src_udp_ports_bytes"/>
+  </query><query-reply>
+    <time start="1520931060" end="1520933115" start_ascii="03/13/2018 08:51:00 +0000" end_ascii="03/13/2018 09:25:15 +0000"/>
+    <sample_info duration="60" count="35" earliest_bin="1520931060" latest_bin="1520933115" agg_bin_offset="0" agg_bins="35" earliest_bin_ascii="03/13/2018 08:51:00 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000" earliest_bin_seen="1520931015" earliest_bin_seen_offset="0" earliest_bin_seen_ascii="03/13/2018 08:50:15 +0000" latest_bin_seen="1520933115" latest_bin_seen_offset="34" latest_bin_seen_ascii="03/13/2018 09:25:15 +0000"/>
+    <instance id="1">
+      <dataset name="dest_addr_bytes">
+        <item id="112.96.0.5/32" name="112.96.0.5/32">
+          <key id="112.96.0.5/32" name="112.96.0.5/32"/>
+          <class type="value">
+            <current value="459412684"/>
+            <avg value="327894679"/>
+            <max value="459412684"/>
+            <pct95 value="447162316"/>
+            <sample value="0|0|433056768|430040678|424009011|441271483|202214638|429113514|429437696|422571417|374034892|343875720|355335424|364105233|352925184|346705032|350138828|346473045|362341785|354779767|174930261|172934894|447162316|164397192|456210449|292277350|174837452|412779733|360393830|350371310|346380322|392363298|340348552|169084040|459412684"/>
+            <linear_fit offset="396190081.138146" slope="-2690166.463904"/>
+          </class>
+        </item>
+      </dataset>
+      <dataset name="protos_bytes">
+        <item id="1" name="icmp">
+          <key id="1" name="icmp"/>
+          <class type="value">
+            <current value="459412684"/>
+            <avg value="327894679"/>
+            <max value="459412684"/>
+            <pct95 value="447162316"/>
+            <sample value="0|0|433056768|430040678|424009011|441271483|202214638|429113514|429437696|422571417|374034892|343875720|355335424|364105233|352925184|346705032|350138828|346473045|362341785|354779767|174930261|172934894|447162316|164397192|456210449|292277350|174837452|412779733|360393830|350371310|346380322|392363298|340348552|169084040|459412684"/>
+            <linear_fit offset="396190081.138146" slope="-2690166.463904"/>
+          </class>
+        </item>
+      </dataset>
+      <dataset name="src_addr_bytes">
+        <item id="211.96.112.2/32" name="211.96.112.2/32">
+          <key id="211.96.112.2/32" name="211.96.112.2/32"/>
+          <class type="value">
+            <current value="459412684"/>
+            <avg value="327894679"/>
+            <max value="459412684"/>
+            <pct95 value="447162316"/>
+            <sample value="0|0|433056768|430040678|424009011|441271483|202214638|429113514|429437696|422571417|374034892|343875720|355335424|364105233|352925184|346705032|350138828|346473045|362341785|354779767|174930261|172934894|447162316|164397192|456210449|292277350|174837452|412779733|360393830|350371310|346380322|392363298|340348552|169084040|459412684"/>
+            <linear_fit offset="396190081.138146" slope="-2690166.463904"/>
+          </class>
+        </item>
+      </dataset>
+    </instance>
+    <status_summary time="0.31"/>
+    <status type="success" collector="10.255.255.2" gid="115" name="CP-KXC-1" time="0.27" bytes="1852" items="3" earliest_bin="1520931015" latest_bin="1520933115" earliest_bin_ascii="03/13/2018 08:50:15 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000"/>
+    <status type="success" collector="10.255.252.2" gid="509" name="cp1" time="0.29" bytes="381" items="0" earliest_bin="1520931015" latest_bin="1520933115" earliest_bin_ascii="03/13/2018 08:50:15 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000"/>
+  </query-reply><query id="query1" type="mft">
+    <time start_ascii="3/13/2018 8:51:00 +0000" end_ascii="3/13/2018 9:25:20 +0000"/>
+    <unit type="pps"/>
+    <search limit="100"/>
+    <id>46526</id>
+    <category>top_talker</category>
+    <boundary>net</boundary>
+    <dataset name="dest_addr_packets"/>
+    <dataset name="dest_tcp_ports_packets"/>
+    <dataset name="dest_udp_ports_packets"/>
+    <dataset name="protos_packets"/>
+    <dataset name="src_addr_packets"/>
+    <dataset name="src_tcp_ports_packets"/>
+    <dataset name="src_udp_ports_packets"/>
+  </query><query-reply>
+    <time start="1520931060" end="1520933115" start_ascii="03/13/2018 08:51:00 +0000" end_ascii="03/13/2018 09:25:15 +0000"/>
+    <sample_info duration="60" count="35" earliest_bin="1520931060" latest_bin="1520933115" agg_bin_offset="0" agg_bins="35" earliest_bin_ascii="03/13/2018 08:51:00 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000" earliest_bin_seen="1520931015" earliest_bin_seen_offset="0" earliest_bin_seen_ascii="03/13/2018 08:50:15 +0000" latest_bin_seen="1520933115" latest_bin_seen_offset="34" latest_bin_seen_ascii="03/13/2018 09:25:15 +0000"/>
+    <instance id="1">
+      <dataset name="dest_addr_packets">
+        <item id="112.96.0.5/32" name="112.96.0.5/32">
+          <key id="112.96.0.5/32" name="112.96.0.5/32"/>
+          <class type="value">
+            <current value="165018"/>
+            <avg value="117777"/>
+            <max value="165018"/>
+            <pct95 value="160618"/>
+            <sample value="0|0|155551|154468|152302|158502|72634|154135|154252|151785|134351|123518|127634|130784|126769|124534|125768|124451|130151|127435|62834|62117|160618|59050|163868|104984|62800|148268|129451|125851|124418|140935|122251|60734|165018"/>
+            <linear_fit offset="142309.088012" slope="-966.294452"/>
+          </class>
+        </item>
+      </dataset>
+      <dataset name="protos_packets">
+        <item id="1" name="icmp">
+          <key id="1" name="icmp"/>
+          <class type="value">
+            <current value="165018"/>
+            <avg value="117777"/>
+            <max value="165018"/>
+            <pct95 value="160618"/>
+            <sample value="0|0|155551|154468|152302|158502|72634|154135|154252|151785|134351|123518|127634|130784|126769|124534|125768|124451|130151|127435|62834|62117|160618|59050|163868|104984|62800|148268|129451|125851|124418|140935|122251|60734|165018"/>
+            <linear_fit offset="142309.088012" slope="-966.294452"/>
+          </class>
+        </item>
+      </dataset>
+      <dataset name="src_addr_packets">
+        <item id="211.96.112.2/32" name="211.96.112.2/32">
+          <key id="211.96.112.2/32" name="211.96.112.2/32"/>
+          <class type="value">
+            <current value="165018"/>
+            <avg value="117777"/>
+            <max value="165018"/>
+            <pct95 value="160618"/>
+            <sample value="0|0|155551|154468|152302|158502|72634|154135|154252|151785|134351|123518|127634|130784|126769|124534|125768|124451|130151|127435|62834|62117|160618|59050|163868|104984|62800|148268|129451|125851|124418|140935|122251|60734|165018"/>
+            <linear_fit offset="142309.088012" slope="-966.294452"/>
+          </class>
+        </item>
+      </dataset>
+    </instance>
+    <status_summary time="0.23"/>
+    <status type="success" collector="10.255.255.2" gid="115" name="CP-KXC-1" time="0.21" bytes="1561" items="3" earliest_bin="1520931015" latest_bin="1520933115" earliest_bin_ascii="03/13/2018 08:50:15 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000"/>
+    <status type="success" collector="10.255.252.2" gid="509" name="cp1" time="0.16" bytes="381" items="0" earliest_bin="1520931015" latest_bin="1520933115" earliest_bin_ascii="03/13/2018 08:50:15 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000"/>
+  </query-reply><query id="query1" type="mft">
+    <time start_ascii="3/13/2018 9:20:00 +0000" end_ascii="3/13/2018 9:25:21 +0000"/>
+    <unit type="bps"/>
+    <search limit="100"/>
+    <id>46526</id>
+    <category>top_talker</category>
+    <boundary>none</boundary>
+    <dataset name="top_patterns_bytes">
+      <class>value</class>
+    </dataset>
+  </query><query-reply>
+    <time start="1520932800" end="1520933115" start_ascii="03/13/2018 09:20:00 +0000" end_ascii="03/13/2018 09:25:15 +0000"/>
+    <sample_info duration="60" count="6" earliest_bin="1520932800" latest_bin="1520933115" agg_bin_offset="0" agg_bins="6" earliest_bin_ascii="03/13/2018 09:20:00 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000" earliest_bin_seen="1520932755" earliest_bin_seen_offset="0" earliest_bin_seen_ascii="03/13/2018 09:19:15 +0000" latest_bin_seen="1520933115" latest_bin_seen_offset="5" latest_bin_seen_ascii="03/13/2018 09:25:15 +0000"/>
+    <instance id="353">
+      <dataset name="top_patterns_bytes">
+        <item id="1_211.96.112.2/32_*_112.96.0.5/32_*" name="1_211.96.112.2/32_*_112.96.0.5/32_*">
+          <key id="1_211.96.112.2/32_*_112.96.0.5/32_*" name="1_211.96.112.2/32_*_112.96.0.5/32_*"/>
+          <class type="tcp_flags">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="value">
+            <current value="54381482"/>
+            <avg value="160082070"/>
+            <max value="201749708"/>
+            <pct95 value="182633147"/>
+            <sample value="182633147|180034252|201749708|174883771|166810060|54381482"/>
+            <linear_fit offset="210638987.000000" slope="-20222766.800000"/>
+          </class>
+        </item>
+      </dataset>
+    </instance>
+    <instance id="359">
+      <dataset name="top_patterns_bytes">
+        <item id="1_211.96.112.2/32_*_112.96.0.5/32_*" name="1_211.96.112.2/32_*_112.96.0.5/32_*">
+          <key id="1_211.96.112.2/32_*_112.96.0.5/32_*" name="1_211.96.112.2/32_*_112.96.0.5/32_*"/>
+          <class type="tcp_flags">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="value">
+            <current value="459412684"/>
+            <avg value="219776554"/>
+            <max value="459412684"/>
+            <pct95 value="190613589"/>
+            <sample value="167738163|166346069|190613589|165464780|169084040|459412684"/>
+            <linear_fit offset="116816717.809524" slope="41183934.542857"/>
+          </class>
+        </item>
+      </dataset>
+    </instance>
+    <status_summary time="0.29"/>
+    <status type="success" collector="10.255.255.2" gid="115" name="CP-KXC-1" time="0.20" bytes="985" items="2" earliest_bin="1520932755" latest_bin="1520933115" earliest_bin_ascii="03/13/2018 09:19:15 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000"/>
+    <status type="success" collector="10.255.252.2" gid="509" name="cp1" time="0.28" bytes="380" items="0" earliest_bin="1520932755" latest_bin="1520933115" earliest_bin_ascii="03/13/2018 09:19:15 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000"/>
+  </query-reply><query id="query1" type="mft">
+    <time start_ascii="3/13/2018 9:20:00 +0000" end_ascii="3/13/2018 9:25:21 +0000"/>
+    <unit type="pps"/>
+    <search limit="100"/>
+    <id>46526</id>
+    <category>top_talker</category>
+    <boundary>none</boundary>
+    <dataset name="top_patterns_packets">
+      <class>value</class>
+    </dataset>
+  </query><query-reply>
+    <time start="1520932800" end="1520933115" start_ascii="03/13/2018 09:20:00 +0000" end_ascii="03/13/2018 09:25:15 +0000"/>
+    <sample_info duration="60" count="6" earliest_bin="1520932800" latest_bin="1520933115" agg_bin_offset="0" agg_bins="6" earliest_bin_ascii="03/13/2018 09:20:00 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000" earliest_bin_seen="1520932755" earliest_bin_seen_offset="0" earliest_bin_seen_ascii="03/13/2018 09:19:15 +0000" latest_bin_seen="1520933115" latest_bin_seen_offset="5" latest_bin_seen_ascii="03/13/2018 09:25:15 +0000"/>
+    <instance id="353">
+      <dataset name="top_patterns_packets">
+        <item id="1_211.96.112.2/32_*_112.96.0.5/32_*" name="1_211.96.112.2/32_*_112.96.0.5/32_*">
+          <key id="1_211.96.112.2/32_*_112.96.0.5/32_*" name="1_211.96.112.2/32_*_112.96.0.5/32_*"/>
+          <class type="tcp_flags">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="value">
+            <current value="19533"/>
+            <avg value="57500"/>
+            <max value="72467"/>
+            <pct95 value="65600"/>
+            <sample value="65600|64667|72467|62817|59917|19533"/>
+            <linear_fit offset="75659.809524" slope="-7263.857143"/>
+          </class>
+        </item>
+      </dataset>
+    </instance>
+    <instance id="359">
+      <dataset name="top_patterns_packets">
+        <item id="1_211.96.112.2/32_*_112.96.0.5/32_*" name="1_211.96.112.2/32_*_112.96.0.5/32_*">
+          <key id="1_211.96.112.2/32_*_112.96.0.5/32_*" name="1_211.96.112.2/32_*_112.96.0.5/32_*"/>
+          <class type="tcp_flags">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="value">
+            <current value="165018"/>
+            <avg value="78942"/>
+            <max value="165018"/>
+            <pct95 value="68467"/>
+            <sample value="60250|59750|68467|59434|60734|165018"/>
+            <linear_fit offset="41959.380952" slope="14793.114286"/>
+          </class>
+        </item>
+      </dataset>
+    </instance>
+    <status_summary time="0.29"/>
+    <status type="success" collector="10.255.255.2" gid="115" name="CP-KXC-1" time="0.20" bytes="954" items="2" earliest_bin="1520932755" latest_bin="1520933115" earliest_bin_ascii="03/13/2018 09:19:15 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000"/>
+    <status type="success" collector="10.255.252.2" gid="509" name="cp1" time="0.28" bytes="380" items="0" earliest_bin="1520932755" latest_bin="1520933115" earliest_bin_ascii="03/13/2018 09:19:15 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000"/>
+  </query-reply><query id="query1" type="mft">
+    <time start_ascii="3/13/2018 9:20:00 +0000" end_ascii="3/13/2018 9:25:21 +0000"/>
+    <search limit="100"/>
+    <id>46526</id>
+    <category>top_talker</category>
+    <boundary>none</boundary>
+    <dataset name="top_patterns_bytes">
+      <class>tcp_flags</class>
+    </dataset>
+  </query><query-reply>
+    <time start="1520932800" end="1520933115" start_ascii="03/13/2018 09:20:00 +0000" end_ascii="03/13/2018 09:25:15 +0000"/>
+    <sample_info duration="60" count="6" earliest_bin="1520932800" latest_bin="1520933115" agg_bin_offset="0" agg_bins="6" earliest_bin_ascii="03/13/2018 09:20:00 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000" earliest_bin_seen="1520932755" earliest_bin_seen_offset="0" earliest_bin_seen_ascii="03/13/2018 09:19:15 +0000" latest_bin_seen="1520933115" latest_bin_seen_offset="5" latest_bin_seen_ascii="03/13/2018 09:25:15 +0000"/>
+    <instance id="353">
+      <dataset name="top_patterns_bytes">
+        <item id="1_211.96.112.2/32_*_112.96.0.5/32_*" name="1_211.96.112.2/32_*_112.96.0.5/32_*">
+          <key id="1_211.96.112.2/32_*_112.96.0.5/32_*" name="1_211.96.112.2/32_*_112.96.0.5/32_*"/>
+          <class type="tcp_flags">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="value">
+            <current value="407861120"/>
+            <avg value="1200615530"/>
+            <max value="1513122816"/>
+            <pct95 value="1369748608"/>
+            <sample value="1369748608|1350256896|1513122816|1311628288|1251075456|407861120"/>
+            <linear_fit offset="1579792408.380952" slope="-151670751.085714"/>
+          </class>
+        </item>
+      </dataset>
+    </instance>
+    <instance id="359">
+      <dataset name="top_patterns_bytes">
+        <item id="1_211.96.112.2/32_*_112.96.0.5/32_*" name="1_211.96.112.2/32_*_112.96.0.5/32_*">
+          <key id="1_211.96.112.2/32_*_112.96.0.5/32_*" name="1_211.96.112.2/32_*_112.96.0.5/32_*"/>
+          <class type="tcp_flags">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="value">
+            <current value="3445595136"/>
+            <avg value="1648324160"/>
+            <max value="3445595136"/>
+            <pct95 value="1429601920"/>
+            <sample value="1258036224|1247595520|1429601920|1240985856|1268130304|3445595136"/>
+            <linear_fit offset="876125385.142857" slope="308879509.942857"/>
+          </class>
+        </item>
+      </dataset>
+    </instance>
+    <status_summary time="0.29"/>
+    <status type="success" collector="10.255.255.2" gid="115" name="CP-KXC-1" time="0.20" bytes="985" items="2" earliest_bin="1520932755" latest_bin="1520933115" earliest_bin_ascii="03/13/2018 09:19:15 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000"/>
+    <status type="success" collector="10.255.252.2" gid="509" name="cp1" time="0.28" bytes="380" items="0" earliest_bin="1520932755" latest_bin="1520933115" earliest_bin_ascii="03/13/2018 09:19:15 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000"/>
+  </query-reply><query id="query1" type="mft">
+    <time start_ascii="3/13/2018 8:51:00 +0000" end_ascii="3/13/2018 9:25:22 +0000"/>
+    <unit type="bps"/>
+    <search limit="100"/>
+    <id>46526</id>
+    <category>top_contributors</category>
+    <boundary>mo</boundary>
+    <dataset name="icmp_type_and_code_bytes"/>
+    <dataset name="misuse_types_bytes"/>
+    <dataset name="src_asn_bytes"/>
+    <dataset name="src_countries_bytes"/>
+    <dataset name="tcp_flags_bytes"/>
+  </query><query-reply>
+    <time start="1520931060" end="1520933115" start_ascii="03/13/2018 08:51:00 +0000" end_ascii="03/13/2018 09:25:15 +0000"/>
+    <sample_info duration="60" count="35" earliest_bin="1520931060" latest_bin="1520933115" agg_bin_offset="0" agg_bins="35" earliest_bin_ascii="03/13/2018 08:51:00 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000" earliest_bin_seen="1520931015" earliest_bin_seen_offset="0" earliest_bin_seen_ascii="03/13/2018 08:50:15 +0000" latest_bin_seen="1520933115" latest_bin_seen_offset="34" latest_bin_seen_ascii="03/13/2018 09:25:15 +0000"/>
+    <instance id="2">
+      <dataset name="icmp_type_and_code_bytes">
+        <item id="0" name="Echo Reply (code 0)">
+          <key id="0" name="Echo Reply (code 0)"/>
+          <class type="value">
+            <current value="459412684"/>
+            <avg value="327894679"/>
+            <max value="459412684"/>
+            <pct95 value="447162316"/>
+            <sample value="0|0|433056768|430040678|424009011|441271483|202214638|429113514|429437696|422571417|374034892|343875720|355335424|364105233|352925184|346705032|350138828|346473045|362341785|354779767|174930261|172934894|447162316|164397192|456210449|292277350|174837452|412779733|360393830|350371310|346380322|392363298|340348552|169084040|459412684"/>
+            <linear_fit offset="396190081.138146" slope="-2690166.463904"/>
+          </class>
+        </item>
+      </dataset>
+      <dataset name="misuse_types_bytes">
+        <item id="7" name="Total Traffic">
+          <key id="7" name="Total Traffic"/>
+          <class type="value">
+            <current value="459412684"/>
+            <avg value="327894679"/>
+            <max value="459412684"/>
+            <pct95 value="447162316"/>
+            <sample value="0|0|433056768|430040678|424009011|441271483|202214638|429113514|429437696|422571417|374034892|343875720|355335424|364105233|352925184|346705032|350138828|346473045|362341785|354779767|174930261|172934894|447162316|164397192|456210449|292277350|174837452|412779733|360393830|350371310|346380322|392363298|340348552|169084040|459412684"/>
+            <linear_fit offset="396190081.138146" slope="-2690166.463904"/>
+          </class>
+        </item>
+        <item id="0" name="ICMP">
+          <key id="0" name="ICMP"/>
+          <class type="value">
+            <current value="459412684"/>
+            <avg value="327894679"/>
+            <max value="459412684"/>
+            <pct95 value="447162316"/>
+            <sample value="0|0|433056768|430040678|424009011|441271483|202214638|429113514|429437696|422571417|374034892|343875720|355335424|364105233|352925184|346705032|350138828|346473045|362341785|354779767|174930261|172934894|447162316|164397192|456210449|292277350|174837452|412779733|360393830|350371310|346380322|392363298|340348552|169084040|459412684"/>
+            <linear_fit offset="396190081.138146" slope="-2690166.463904"/>
+          </class>
+        </item>
+      </dataset>
+      <dataset name="src_asn_bytes">
+        <item id="0" name="NULL">
+          <key id="0" name="NULL"/>
+          <class type="value">
+            <current value="459412684"/>
+            <avg value="327894679"/>
+            <max value="459412684"/>
+            <pct95 value="447162316"/>
+            <sample value="0|0|433056768|430040678|424009011|441271483|202214638|429113514|429437696|422571417|374034892|343875720|355335424|364105233|352925184|346705032|350138828|346473045|362341785|354779767|174930261|172934894|447162316|164397192|456210449|292277350|174837452|412779733|360393830|350371310|346380322|392363298|340348552|169084040|459412684"/>
+            <linear_fit offset="396190081.138146" slope="-2690166.463904"/>
+          </class>
+        </item>
+      </dataset>
+      <dataset name="src_countries_bytes">
+        <item id="20035" name="China">
+          <key id="20035" name="China" country="China" country_code="CN"/>
+          <class type="value">
+            <current value="459412684"/>
+            <avg value="327894679"/>
+            <max value="459412684"/>
+            <pct95 value="447162316"/>
+            <sample value="0|0|433056768|430040678|424009011|441271483|202214638|429113514|429437696|422571417|374034892|343875720|355335424|364105233|352925184|346705032|350138828|346473045|362341785|354779767|174930261|172934894|447162316|164397192|456210449|292277350|174837452|412779733|360393830|350371310|346380322|392363298|340348552|169084040|459412684"/>
+            <linear_fit offset="396190081.138146" slope="-2690166.463904"/>
+          </class>
+        </item>
+      </dataset>
+    </instance>
+    <status_summary time="0.30"/>
+    <status type="success" collector="10.255.255.2" gid="115" name="CP-KXC-1" time="0.24" bytes="4570" items="19" earliest_bin="1520931015" latest_bin="1520933115" earliest_bin_ascii="03/13/2018 08:50:15 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000"/>
+    <status type="success" collector="10.255.252.2" gid="509" name="cp1" time="0.28" bytes="381" items="0" earliest_bin="1520931015" latest_bin="1520933115" earliest_bin_ascii="03/13/2018 08:50:15 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000"/>
+  </query-reply><query id="query1" type="mft">
+    <time start_ascii="3/13/2018 8:51:00 +0000" end_ascii="3/13/2018 9:25:22 +0000"/>
+    <unit type="pps"/>
+    <search limit="100"/>
+    <id>46526</id>
+    <category>top_contributors</category>
+    <boundary>mo</boundary>
+    <dataset name="icmp_type_and_code_packets"/>
+    <dataset name="misuse_types_packets"/>
+    <dataset name="src_asn_packets"/>
+    <dataset name="src_countries_packets"/>
+    <dataset name="tcp_flags_packets"/>
+  </query><query-reply>
+    <time start="1520931060" end="1520933115" start_ascii="03/13/2018 08:51:00 +0000" end_ascii="03/13/2018 09:25:15 +0000"/>
+    <sample_info duration="60" count="35" earliest_bin="1520931060" latest_bin="1520933115" agg_bin_offset="0" agg_bins="35" earliest_bin_ascii="03/13/2018 08:51:00 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000" earliest_bin_seen="1520931015" earliest_bin_seen_offset="0" earliest_bin_seen_ascii="03/13/2018 08:50:15 +0000" latest_bin_seen="1520933115" latest_bin_seen_offset="34" latest_bin_seen_ascii="03/13/2018 09:25:15 +0000"/>
+    <instance id="2">
+      <dataset name="icmp_type_and_code_packets">
+        <item id="0" name="Echo Reply (code 0)">
+          <key id="0" name="Echo Reply (code 0)"/>
+          <class type="value">
+            <current value="165018"/>
+            <avg value="117777"/>
+            <max value="165018"/>
+            <pct95 value="160618"/>
+            <sample value="0|0|155551|154468|152302|158502|72634|154135|154252|151785|134351|123518|127634|130784|126769|124534|125768|124451|130151|127435|62834|62117|160618|59050|163868|104984|62800|148268|129451|125851|124418|140935|122251|60734|165018"/>
+            <linear_fit offset="142309.088012" slope="-966.294452"/>
+          </class>
+        </item>
+      </dataset>
+      <dataset name="misuse_types_packets">
+        <item id="7" name="Total Traffic">
+          <key id="7" name="Total Traffic"/>
+          <class type="value">
+            <current value="165018"/>
+            <avg value="117777"/>
+            <max value="165018"/>
+            <pct95 value="160618"/>
+            <sample value="0|0|155551|154468|152302|158502|72634|154135|154252|151785|134351|123518|127634|130784|126769|124534|125768|124451|130151|127435|62834|62117|160618|59050|163868|104984|62800|148268|129451|125851|124418|140935|122251|60734|165018"/>
+            <linear_fit offset="142309.088012" slope="-966.294452"/>
+          </class>
+        </item>
+        <item id="0" name="ICMP">
+          <key id="0" name="ICMP"/>
+          <class type="value">
+            <current value="165018"/>
+            <avg value="117777"/>
+            <max value="165018"/>
+            <pct95 value="160618"/>
+            <sample value="0|0|155551|154468|152302|158502|72634|154135|154252|151785|134351|123518|127634|130784|126769|124534|125768|124451|130151|127435|62834|62117|160618|59050|163868|104984|62800|148268|129451|125851|124418|140935|122251|60734|165018"/>
+            <linear_fit offset="142309.088012" slope="-966.294452"/>
+          </class>
+        </item>
+      </dataset>
+      <dataset name="src_asn_packets">
+        <item id="0" name="NULL">
+          <key id="0" name="NULL"/>
+          <class type="value">
+            <current value="165018"/>
+            <avg value="117777"/>
+            <max value="165018"/>
+            <pct95 value="160618"/>
+            <sample value="0|0|155551|154468|152302|158502|72634|154135|154252|151785|134351|123518|127634|130784|126769|124534|125768|124451|130151|127435|62834|62117|160618|59050|163868|104984|62800|148268|129451|125851|124418|140935|122251|60734|165018"/>
+            <linear_fit offset="142309.088012" slope="-966.294452"/>
+          </class>
+        </item>
+      </dataset>
+      <dataset name="src_countries_packets">
+        <item id="20035" name="China">
+          <key id="20035" name="China" country="China" country_code="CN"/>
+          <class type="value">
+            <current value="165018"/>
+            <avg value="117777"/>
+            <max value="165018"/>
+            <pct95 value="160618"/>
+            <sample value="0|0|155551|154468|152302|158502|72634|154135|154252|151785|134351|123518|127634|130784|126769|124534|125768|124451|130151|127435|62834|62117|160618|59050|163868|104984|62800|148268|129451|125851|124418|140935|122251|60734|165018"/>
+            <linear_fit offset="142309.088012" slope="-966.294452"/>
+          </class>
+        </item>
+      </dataset>
+    </instance>
+    <status_summary time="0.23"/>
+    <status type="success" collector="10.255.255.2" gid="115" name="CP-KXC-1" time="0.22" bytes="4083" items="19" earliest_bin="1520931015" latest_bin="1520933115" earliest_bin_ascii="03/13/2018 08:50:15 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000"/>
+    <status type="success" collector="10.255.252.2" gid="509" name="cp1" time="0.14" bytes="381" items="0" earliest_bin="1520931015" latest_bin="1520933115" earliest_bin_ascii="03/13/2018 08:50:15 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000"/>
+  </query-reply><query id="query1" type="mft">
+    <time start_ascii="3/13/2018 8:51:00 +0000" end_ascii="3/13/2018 9:25:22 +0000"/>
+    <unit type="bps"/>
+    <search limit="100"/>
+    <id>46526</id>
+    <category>top_contributors</category>
+    <boundary>net</boundary>
+    <dataset name="icmp_type_and_code_bytes"/>
+    <dataset name="misuse_types_bytes"/>
+    <dataset name="src_asn_bytes"/>
+    <dataset name="src_countries_bytes"/>
+    <dataset name="tcp_flags_bytes"/>
+  </query><query-reply>
+    <time start="1520931060" end="1520933115" start_ascii="03/13/2018 08:51:00 +0000" end_ascii="03/13/2018 09:25:15 +0000"/>
+    <sample_info duration="60" count="35" earliest_bin="1520931060" latest_bin="1520933115" agg_bin_offset="0" agg_bins="35" earliest_bin_ascii="03/13/2018 08:51:00 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000" earliest_bin_seen="1520931015" earliest_bin_seen_offset="0" earliest_bin_seen_ascii="03/13/2018 08:50:15 +0000" latest_bin_seen="1520933115" latest_bin_seen_offset="34" latest_bin_seen_ascii="03/13/2018 09:25:15 +0000"/>
+    <instance id="1">
+      <dataset name="icmp_type_and_code_bytes">
+        <item id="0" name="Echo Reply (code 0)">
+          <key id="0" name="Echo Reply (code 0)"/>
+          <class type="value">
+            <current value="459412684"/>
+            <avg value="327894679"/>
+            <max value="459412684"/>
+            <pct95 value="447162316"/>
+            <sample value="0|0|433056768|430040678|424009011|441271483|202214638|429113514|429437696|422571417|374034892|343875720|355335424|364105233|352925184|346705032|350138828|346473045|362341785|354779767|174930261|172934894|447162316|164397192|456210449|292277350|174837452|412779733|360393830|350371310|346380322|392363298|340348552|169084040|459412684"/>
+            <linear_fit offset="396190081.138146" slope="-2690166.463904"/>
+          </class>
+        </item>
+      </dataset>
+      <dataset name="misuse_types_bytes">
+        <item id="7" name="Total Traffic">
+          <key id="7" name="Total Traffic"/>
+          <class type="value">
+            <current value="459412684"/>
+            <avg value="327894679"/>
+            <max value="459412684"/>
+            <pct95 value="447162316"/>
+            <sample value="0|0|433056768|430040678|424009011|441271483|202214638|429113514|429437696|422571417|374034892|343875720|355335424|364105233|352925184|346705032|350138828|346473045|362341785|354779767|174930261|172934894|447162316|164397192|456210449|292277350|174837452|412779733|360393830|350371310|346380322|392363298|340348552|169084040|459412684"/>
+            <linear_fit offset="396190081.138146" slope="-2690166.463904"/>
+          </class>
+        </item>
+        <item id="0" name="ICMP">
+          <key id="0" name="ICMP"/>
+          <class type="value">
+            <current value="459412684"/>
+            <avg value="327894679"/>
+            <max value="459412684"/>
+            <pct95 value="447162316"/>
+            <sample value="0|0|433056768|430040678|424009011|441271483|202214638|429113514|429437696|422571417|374034892|343875720|355335424|364105233|352925184|346705032|350138828|346473045|362341785|354779767|174930261|172934894|447162316|164397192|456210449|292277350|174837452|412779733|360393830|350371310|346380322|392363298|340348552|169084040|459412684"/>
+            <linear_fit offset="396190081.138146" slope="-2690166.463904"/>
+          </class>
+        </item>
+      </dataset>
+      <dataset name="src_asn_bytes">
+        <item id="0" name="NULL">
+          <key id="0" name="NULL"/>
+          <class type="value">
+            <current value="459412684"/>
+            <avg value="327894679"/>
+            <max value="459412684"/>
+            <pct95 value="447162316"/>
+            <sample value="0|0|433056768|430040678|424009011|441271483|202214638|429113514|429437696|422571417|374034892|343875720|355335424|364105233|352925184|346705032|350138828|346473045|362341785|354779767|174930261|172934894|447162316|164397192|456210449|292277350|174837452|412779733|360393830|350371310|346380322|392363298|340348552|169084040|459412684"/>
+            <linear_fit offset="396190081.138146" slope="-2690166.463904"/>
+          </class>
+        </item>
+      </dataset>
+      <dataset name="src_countries_bytes">
+        <item id="20035" name="China">
+          <key id="20035" name="China" country="China" country_code="CN"/>
+          <class type="value">
+            <current value="459412684"/>
+            <avg value="327894679"/>
+            <max value="459412684"/>
+            <pct95 value="447162316"/>
+            <sample value="0|0|433056768|430040678|424009011|441271483|202214638|429113514|429437696|422571417|374034892|343875720|355335424|364105233|352925184|346705032|350138828|346473045|362341785|354779767|174930261|172934894|447162316|164397192|456210449|292277350|174837452|412779733|360393830|350371310|346380322|392363298|340348552|169084040|459412684"/>
+            <linear_fit offset="396190081.138146" slope="-2690166.463904"/>
+          </class>
+        </item>
+      </dataset>
+    </instance>
+    <status_summary time="0.91"/>
+    <status type="success" collector="10.255.255.2" gid="115" name="CP-KXC-1" time="0.90" bytes="4570" items="19" earliest_bin="1520931015" latest_bin="1520933115" earliest_bin_ascii="03/13/2018 08:50:15 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000"/>
+    <status type="success" collector="10.255.252.2" gid="509" name="cp1" time="0.41" bytes="381" items="0" earliest_bin="1520931015" latest_bin="1520933115" earliest_bin_ascii="03/13/2018 08:50:15 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000"/>
+  </query-reply><query id="query1" type="mft">
+    <time start_ascii="3/13/2018 8:51:00 +0000" end_ascii="3/13/2018 9:25:23 +0000"/>
+    <unit type="pps"/>
+    <search limit="100"/>
+    <id>46526</id>
+    <category>top_contributors</category>
+    <boundary>net</boundary>
+    <dataset name="icmp_type_and_code_packets"/>
+    <dataset name="misuse_types_packets"/>
+    <dataset name="src_asn_packets"/>
+    <dataset name="src_countries_packets"/>
+    <dataset name="tcp_flags_packets"/>
+  </query><query-reply>
+    <time start="1520931060" end="1520933115" start_ascii="03/13/2018 08:51:00 +0000" end_ascii="03/13/2018 09:25:15 +0000"/>
+    <sample_info duration="60" count="35" earliest_bin="1520931060" latest_bin="1520933115" agg_bin_offset="0" agg_bins="35" earliest_bin_ascii="03/13/2018 08:51:00 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000" earliest_bin_seen="1520931015" earliest_bin_seen_offset="0" earliest_bin_seen_ascii="03/13/2018 08:50:15 +0000" latest_bin_seen="1520933115" latest_bin_seen_offset="34" latest_bin_seen_ascii="03/13/2018 09:25:15 +0000"/>
+    <instance id="1">
+      <dataset name="icmp_type_and_code_packets">
+        <item id="0" name="Echo Reply (code 0)">
+          <key id="0" name="Echo Reply (code 0)"/>
+          <class type="value">
+            <current value="165018"/>
+            <avg value="117777"/>
+            <max value="165018"/>
+            <pct95 value="160618"/>
+            <sample value="0|0|155551|154468|152302|158502|72634|154135|154252|151785|134351|123518|127634|130784|126769|124534|125768|124451|130151|127435|62834|62117|160618|59050|163868|104984|62800|148268|129451|125851|124418|140935|122251|60734|165018"/>
+            <linear_fit offset="142309.088012" slope="-966.294452"/>
+          </class>
+        </item>
+      </dataset>
+      <dataset name="misuse_types_packets">
+        <item id="7" name="Total Traffic">
+          <key id="7" name="Total Traffic"/>
+          <class type="value">
+            <current value="165018"/>
+            <avg value="117777"/>
+            <max value="165018"/>
+            <pct95 value="160618"/>
+            <sample value="0|0|155551|154468|152302|158502|72634|154135|154252|151785|134351|123518|127634|130784|126769|124534|125768|124451|130151|127435|62834|62117|160618|59050|163868|104984|62800|148268|129451|125851|124418|140935|122251|60734|165018"/>
+            <linear_fit offset="142309.088012" slope="-966.294452"/>
+          </class>
+        </item>
+        <item id="0" name="ICMP">
+          <key id="0" name="ICMP"/>
+          <class type="value">
+            <current value="165018"/>
+            <avg value="117777"/>
+            <max value="165018"/>
+            <pct95 value="160618"/>
+            <sample value="0|0|155551|154468|152302|158502|72634|154135|154252|151785|134351|123518|127634|130784|126769|124534|125768|124451|130151|127435|62834|62117|160618|59050|163868|104984|62800|148268|129451|125851|124418|140935|122251|60734|165018"/>
+            <linear_fit offset="142309.088012" slope="-966.294452"/>
+          </class>
+        </item>
+      </dataset>
+      <dataset name="src_asn_packets">
+        <item id="0" name="NULL">
+          <key id="0" name="NULL"/>
+          <class type="value">
+            <current value="165018"/>
+            <avg value="117777"/>
+            <max value="165018"/>
+            <pct95 value="160618"/>
+            <sample value="0|0|155551|154468|152302|158502|72634|154135|154252|151785|134351|123518|127634|130784|126769|124534|125768|124451|130151|127435|62834|62117|160618|59050|163868|104984|62800|148268|129451|125851|124418|140935|122251|60734|165018"/>
+            <linear_fit offset="142309.088012" slope="-966.294452"/>
+          </class>
+        </item>
+      </dataset>
+      <dataset name="src_countries_packets">
+        <item id="20035" name="China">
+          <key id="20035" name="China" country="China" country_code="CN"/>
+          <class type="value">
+            <current value="165018"/>
+            <avg value="117777"/>
+            <max value="165018"/>
+            <pct95 value="160618"/>
+            <sample value="0|0|155551|154468|152302|158502|72634|154135|154252|151785|134351|123518|127634|130784|126769|124534|125768|124451|130151|127435|62834|62117|160618|59050|163868|104984|62800|148268|129451|125851|124418|140935|122251|60734|165018"/>
+            <linear_fit offset="142309.088012" slope="-966.294452"/>
+          </class>
+        </item>
+      </dataset>
+    </instance>
+    <status_summary time="0.30"/>
+    <status type="success" collector="10.255.255.2" gid="115" name="CP-KXC-1" time="0.21" bytes="4083" items="19" earliest_bin="1520931015" latest_bin="1520933115" earliest_bin_ascii="03/13/2018 08:50:15 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000"/>
+    <status type="success" collector="10.255.252.2" gid="509" name="cp1" time="0.28" bytes="381" items="0" earliest_bin="1520931015" latest_bin="1520933115" earliest_bin_ascii="03/13/2018 08:50:15 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000"/>
+  </query-reply><query id="query1" type="mft">
+    <time start_ascii="3/13/2018 8:51:00 +0000" end_ascii="3/13/2018 9:25:24 +0000"/>
+    <unit type=""/>
+    <search limit="100"/>
+    <id>46526</id>
+    <category>top_contributors</category>
+    <boundary>mo</boundary>
+    <dataset name="packet_distribution"/>
+  </query><query-reply>
+    <time start="1520931060" end="1520933115" start_ascii="03/13/2018 08:51:00 +0000" end_ascii="03/13/2018 09:25:15 +0000"/>
+    <sample_info duration="60" count="35" earliest_bin="1520931060" latest_bin="1520933115" agg_bin_offset="0" agg_bins="35" earliest_bin_ascii="03/13/2018 08:51:00 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000" earliest_bin_seen="1520931015" earliest_bin_seen_offset="0" earliest_bin_seen_ascii="03/13/2018 08:50:15 +0000" latest_bin_seen="1520933115" latest_bin_seen_offset="34" latest_bin_seen_ascii="03/13/2018 09:25:15 +0000"/>
+    <instance id="2">
+      <dataset name="packet_distribution">
+        <item id="0" name="0">
+          <key id="0" name="0"/>
+          <class type="packet_size_201_to_250">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_51_to_100">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_651_to_700">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_751_to_800">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_1501_and_greater">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_501_to_550">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_451_to_500">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_101_to_150">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_1451_to_1500">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_1301_to_1350">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_0_to_50">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_551_to_600">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_1401_to_1450">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_1201_to_1250">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_151_to_200">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_1101_to_1150">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_901_to_950">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_1351_to_1400">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_251_to_300">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_1251_to_1300">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_951_to_1000">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_851_to_900">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_301_to_350">
+            <current value="9901136"/>
+            <avg value="7066695"/>
+            <max value="9901136"/>
+            <pct95 value="9637119"/>
+            <sample value="0|0|9333119|9268118|9138125|9510161|4358074|9248136|9255123|9107142|8061096|7411114|7658090|7847095|7606145|7472091|7546094|7467090|7809090|7646115|3770048|3727045|9637119|3543043|9832121|6299081|3768048|8896114|7767108|7551105|7465092|8456105|7335097|3644052|9901136"/>
+            <linear_fit offset="8538578.866533" slope="-57977.728275"/>
+          </class>
+          <class type="packet_size_351_to_400">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_601_to_650">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_801_to_850">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_1001_to_1050">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_1151_to_1200">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_1051_to_1100">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_401_to_450">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_701_to_750">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+        </item>
+      </dataset>
+    </instance>
+    <status_summary time="0.58"/>
+    <status type="success" collector="10.255.255.2" gid="115" name="CP-KXC-1" time="0.57" bytes="4587" items="1" earliest_bin="1520931015" latest_bin="1520933115" earliest_bin_ascii="03/13/2018 08:50:15 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000"/>
+    <status type="success" collector="10.255.252.2" gid="509" name="cp1" time="0.14" bytes="381" items="0" earliest_bin="1520931015" latest_bin="1520933115" earliest_bin_ascii="03/13/2018 08:50:15 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000"/>
+  </query-reply><query id="query1" type="mft">
+    <time start_ascii="3/13/2018 8:51:00 +0000" end_ascii="3/13/2018 9:25:24 +0000"/>
+    <unit type=""/>
+    <search limit="100"/>
+    <id>46526</id>
+    <category>top_contributors</category>
+    <boundary>net</boundary>
+    <dataset name="packet_distribution"/>
+  </query><query-reply>
+    <time start="1520931060" end="1520933115" start_ascii="03/13/2018 08:51:00 +0000" end_ascii="03/13/2018 09:25:15 +0000"/>
+    <sample_info duration="60" count="35" earliest_bin="1520931060" latest_bin="1520933115" agg_bin_offset="0" agg_bins="35" earliest_bin_ascii="03/13/2018 08:51:00 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000" earliest_bin_seen="1520931015" earliest_bin_seen_offset="0" earliest_bin_seen_ascii="03/13/2018 08:50:15 +0000" latest_bin_seen="1520933115" latest_bin_seen_offset="34" latest_bin_seen_ascii="03/13/2018 09:25:15 +0000"/>
+    <instance id="1">
+      <dataset name="packet_distribution">
+        <item id="0" name="0">
+          <key id="0" name="0"/>
+          <class type="packet_size_201_to_250">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_51_to_100">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_651_to_700">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_751_to_800">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_1501_and_greater">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_501_to_550">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_451_to_500">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_101_to_150">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_1451_to_1500">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_1301_to_1350">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_0_to_50">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_551_to_600">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_1401_to_1450">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_1201_to_1250">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_151_to_200">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_1101_to_1150">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_901_to_950">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_1351_to_1400">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_251_to_300">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_1251_to_1300">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_951_to_1000">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_851_to_900">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_301_to_350">
+            <current value="9901136"/>
+            <avg value="7066695"/>
+            <max value="9901136"/>
+            <pct95 value="9637119"/>
+            <sample value="0|0|9333119|9268118|9138125|9510161|4358074|9248136|9255123|9107142|8061096|7411114|7658090|7847095|7606145|7472091|7546094|7467090|7809090|7646115|3770048|3727045|9637119|3543043|9832121|6299081|3768048|8896114|7767108|7551105|7465092|8456105|7335097|3644052|9901136"/>
+            <linear_fit offset="8538578.866533" slope="-57977.728275"/>
+          </class>
+          <class type="packet_size_351_to_400">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_601_to_650">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_801_to_850">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_1001_to_1050">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_1151_to_1200">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_1051_to_1100">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_401_to_450">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+          <class type="packet_size_701_to_750">
+            <current value="0"/>
+            <avg value="0"/>
+            <max value="0"/>
+            <pct95 value="0"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0"/>
+            <linear_fit offset="0.000000" slope="0.000000"/>
+          </class>
+        </item>
+      </dataset>
+    </instance>
+    <status_summary time="0.29"/>
+    <status type="success" collector="10.255.255.2" gid="115" name="CP-KXC-1" time="0.26" bytes="4587" items="1" earliest_bin="1520931015" latest_bin="1520933115" earliest_bin_ascii="03/13/2018 08:50:15 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000"/>
+    <status type="success" collector="10.255.252.2" gid="509" name="cp1" time="0.28" bytes="381" items="0" earliest_bin="1520931015" latest_bin="1520933115" earliest_bin_ascii="03/13/2018 08:50:15 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000"/>
+  </query-reply><query id="query1" type="mft">
+    <time start_ascii="3/13/2018 8:51:00 +0000" end_ascii="3/13/2018 9:25:25 +0000"/>
+    <unit type="bps"/>
+    <search limit="100"/>
+    <id>46526</id>
+    <category>router_stats</category>
+    <boundary>none</boundary>
+    <dataset name="counts_bytes"/>
+  </query><query-reply>
+    <time start="1520931060" end="1520933115" start_ascii="03/13/2018 08:51:00 +0000" end_ascii="03/13/2018 09:25:15 +0000"/>
+    <sample_info duration="60" count="35" earliest_bin="1520931060" latest_bin="1520933115" agg_bin_offset="0" agg_bins="35" earliest_bin_ascii="03/13/2018 08:51:00 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000" earliest_bin_seen="1520931015" earliest_bin_seen_offset="0" earliest_bin_seen_ascii="03/13/2018 08:50:15 +0000" latest_bin_seen="1520933115" latest_bin_seen_offset="34" latest_bin_seen_ascii="03/13/2018 09:25:15 +0000"/>
+    <instance id="23134276" type="interface" name="POS0/3/5/0" router_gid="353" router_name="C6">
+      <dataset name="counts_bytes">
+        <item id="0" name="IN">
+          <key id="0" name="IN"/>
+          <class type="value">
+            <current value="0"/>
+            <avg value="129026871"/>
+            <max value="224950152"/>
+            <pct95 value="222397934"/>
+            <sample value="0|0|224950152|218036428|215948680|224068812|0|221563767|222397934|215484689|200311176|182168610|181936554|190427921|185046749|177343027|182679108|175255022|185973350|182864605|0|0|0|0|0|0|0|204997853|185185177|182633147|180034252|201749708|174883771|0|0"/>
+            <linear_fit offset="214922173.377668" slope="-1186859.710240"/>
+          </class>
+        </item>
+      </dataset>
+    </instance>
+    <instance id="23134402" type="interface" name="TenGigE1/7/3/0" router_gid="353" router_name="C6">
+      <dataset name="counts_bytes">
+        <item id="1" name="OUT">
+          <key id="1" name="OUT"/>
+          <class type="value">
+            <current value="54381482"/>
+            <avg value="141556355"/>
+            <max value="224950152"/>
+            <pct95 value="222397934"/>
+            <sample value="0|0|224950152|218036428|215948680|224068812|0|221563767|222397934|215484689|200311176|182168610|181936554|190427921|185046749|177343027|182679108|175255022|185973350|182864605|0|206389862|10950533|0|0|0|0|204997853|185185177|182633147|180034252|201749708|174883771|166810060|54381482"/>
+            <linear_fit offset="223078876.230866" slope="-2273738.785603"/>
+          </class>
+        </item>
+      </dataset>
+    </instance>
+    <instance id="23134435" type="interface" name="POS1/9/0/0" router_gid="353" router_name="C6">
+      <dataset name="counts_bytes">
+        <item id="0" name="IN">
+          <key id="0" name="IN"/>
+          <class type="value">
+            <current value="54381482"/>
+            <avg value="12529483"/>
+            <max value="206389862"/>
+            <pct95 value="54381482"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|206389862|10950533|0|0|0|0|0|0|0|0|0|0|166810060|54381482"/>
+            <linear_fit offset="134445015.051724" slope="-902255.665517"/>
+          </class>
+        </item>
+      </dataset>
+    </instance>
+    <instance id="23527663" type="interface" name="r2-d-gdgz-gdlt to r1-c-gdgz-2,100G:1," router_gid="359" router_name="r2-d-gdgz-gdlt">
+      <dataset name="counts_bytes">
+        <item id="1" name="OUT">
+          <key id="1" name="OUT"/>
+          <class type="value">
+            <current value="173816576"/>
+            <avg value="165131922"/>
+            <max value="217202670"/>
+            <pct95 value="208106615"/>
+            <sample value="0|0|208106615|212004249|208060330|217202670|202214638|207549747|207039761|207086728|173723716|161707110|173398869|173677312|167878434|169362005|167459720|171218022|176368435|171915161|174930261|172934894|164722090|164397192|175394235|0|174837452|168155767|175208652|167738163|166346069|190613589|165464780|169084040|173816576"/>
+            <linear_fit offset="202078467.867955" slope="-1207194.533874"/>
+          </class>
+        </item>
+        <item id="0" name="IN">
+          <key id="0" name="IN"/>
+          <class type="value">
+            <current value="285596108"/>
+            <avg value="33735885"/>
+            <max value="292277350"/>
+            <pct95 value="282440226"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|282440226|0|280816213|292277350|0|39626112|0|0|0|0|0|0|285596108"/>
+            <linear_fit offset="276921883.028169" slope="-1544343.985915"/>
+          </class>
+        </item>
+      </dataset>
+    </instance>
+    <instance id="23527672" type="interface" name="TenGigE0/8/0/5" router_gid="359" router_name="r2-d-gdgz-gdlt">
+      <dataset name="counts_bytes">
+        <item id="0" name="IN">
+          <key id="0" name="IN"/>
+          <class type="value">
+            <current value="173816576"/>
+            <avg value="165131922"/>
+            <max value="217202670"/>
+            <pct95 value="208106615"/>
+            <sample value="0|0|208106615|212004249|208060330|217202670|202214638|207549747|207039761|207086728|173723716|161707110|173398869|173677312|167878434|169362005|167459720|171218022|176368435|171915161|174930261|172934894|164722090|164397192|175394235|0|174837452|168155767|175208652|167738163|166346069|190613589|165464780|169084040|173816576"/>
+            <linear_fit offset="202078467.867955" slope="-1207194.533874"/>
+          </class>
+        </item>
+      </dataset>
+    </instance>
+    <instance id="23527978" type="interface" name="Bundle-Ether30.100" router_gid="359" router_name="r2-d-gdgz-gdlt">
+      <dataset name="counts_bytes">
+        <item id="1" name="OUT">
+          <key id="1" name="OUT"/>
+          <class type="value">
+            <current value="285596108"/>
+            <avg value="33735885"/>
+            <max value="292277350"/>
+            <pct95 value="282440226"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|282440226|0|280816213|292277350|0|39626112|0|0|0|0|0|0|285596108"/>
+            <linear_fit offset="276921883.028169" slope="-1544343.985915"/>
+          </class>
+        </item>
+      </dataset>
+    </instance>
+    <instance id="353" type="router" name="C6">
+      <dataset name="counts_bytes">
+        <item id="-1" name="N/A">
+          <key id="-1" name="N/A"/>
+          <class type="value">
+            <current value="54381482"/>
+            <avg value="141556355"/>
+            <max value="224950152"/>
+            <pct95 value="222397934"/>
+            <sample value="0|0|224950152|218036428|215948680|224068812|0|221563767|222397934|215484689|200311176|182168610|181936554|190427921|185046749|177343027|182679108|175255022|185973350|182864605|0|206389862|10950533|0|0|0|0|204997853|185185177|182633147|180034252|201749708|174883771|166810060|54381482"/>
+            <linear_fit offset="223078876.230866" slope="-2273738.785603"/>
+          </class>
+        </item>
+      </dataset>
+    </instance>
+    <instance id="359" type="router" name="r2-d-gdgz-gdlt">
+      <dataset name="counts_bytes">
+        <item id="-1" name="N/A">
+          <key id="-1" name="N/A"/>
+          <class type="value">
+            <current value="459412684"/>
+            <avg value="198867808"/>
+            <max value="459412684"/>
+            <pct95 value="447162316"/>
+            <sample value="0|0|208106615|212004249|208060330|217202670|202214638|207549747|207039761|207086728|173723716|161707110|173398869|173677312|167878434|169362005|167459720|171218022|176368435|171915161|174930261|172934894|447162316|164397192|456210449|292277350|174837452|207781879|175208652|167738163|166346069|190613589|165464780|169084040|459412684"/>
+            <linear_fit offset="181011308.621435" slope="1661616.342580"/>
+          </class>
+        </item>
+      </dataset>
+    </instance>
+    <status_summary time="0.36"/>
+    <status type="success" collector="10.255.255.2" gid="115" name="CP-KXC-1" time="0.20" bytes="3946" items="9" earliest_bin="1520931015" latest_bin="1520933115" earliest_bin_ascii="03/13/2018 08:50:15 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000"/>
+    <status type="success" collector="10.255.252.2" gid="509" name="cp1" time="0.29" bytes="381" items="0" earliest_bin="1520931015" latest_bin="1520933115" earliest_bin_ascii="03/13/2018 08:50:15 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000"/>
+  </query-reply><query id="query1" type="mft">
+    <time start_ascii="3/13/2018 8:51:00 +0000" end_ascii="3/13/2018 9:25:25 +0000"/>
+    <unit type="pps"/>
+    <search limit="100"/>
+    <id>46526</id>
+    <category>router_stats</category>
+    <boundary>none</boundary>
+    <dataset name="counts_packets"/>
+  </query><query-reply>
+    <time start="1520931060" end="1520933115" start_ascii="03/13/2018 08:51:00 +0000" end_ascii="03/13/2018 09:25:15 +0000"/>
+    <sample_info duration="60" count="35" earliest_bin="1520931060" latest_bin="1520933115" agg_bin_offset="0" agg_bins="35" earliest_bin_ascii="03/13/2018 08:51:00 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000" earliest_bin_seen="1520931015" earliest_bin_seen_offset="0" earliest_bin_seen_ascii="03/13/2018 08:50:15 +0000" latest_bin_seen="1520933115" latest_bin_seen_offset="34" latest_bin_seen_ascii="03/13/2018 09:25:15 +0000"/>
+    <instance id="23134276" type="interface" name="POS0/3/5/0" router_gid="353" router_name="C6">
+      <dataset name="counts_packets">
+        <item id="0" name="IN">
+          <key id="0" name="IN"/>
+          <class type="value">
+            <current value="0"/>
+            <avg value="46345"/>
+            <max value="80801"/>
+            <pct95 value="79884"/>
+            <sample value="0|0|80801|78317|77567|80484|0|79584|79884|77401|71950|65434|65350|68400|66467|63700|65617|62950|66800|65684|0|0|0|0|0|0|0|73634|66517|65600|64667|72467|62817|0|0"/>
+            <linear_fit offset="77198.532184" slope="-426.317334"/>
+          </class>
+        </item>
+      </dataset>
+    </instance>
+    <instance id="23134402" type="interface" name="TenGigE1/7/3/0" router_gid="353" router_name="C6">
+      <dataset name="counts_packets">
+        <item id="1" name="OUT">
+          <key id="1" name="OUT"/>
+          <class type="value">
+            <current value="19533"/>
+            <avg value="50845"/>
+            <max value="80801"/>
+            <pct95 value="79884"/>
+            <sample value="0|0|80801|78317|77567|80484|0|79584|79884|77401|71950|65434|65350|68400|66467|63700|65617|62950|66800|65684|0|74134|3933|0|0|0|0|73634|66517|65600|64667|72467|62817|59917|19533"/>
+            <linear_fit offset="80128.371217" slope="-816.717070"/>
+          </class>
+        </item>
+      </dataset>
+    </instance>
+    <instance id="23134435" type="interface" name="POS1/9/0/0" router_gid="353" router_name="C6">
+      <dataset name="counts_packets">
+        <item id="0" name="IN">
+          <key id="0" name="IN"/>
+          <class type="value">
+            <current value="19533"/>
+            <avg value="4500"/>
+            <max value="74134"/>
+            <pct95 value="19533"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|74134|3933|0|0|0|0|0|0|0|0|0|0|59917|19533"/>
+            <linear_fit offset="48292.000000" slope="-324.100000"/>
+          </class>
+        </item>
+      </dataset>
+    </instance>
+    <instance id="23527663" type="interface" name="r2-d-gdgz-gdlt to r1-c-gdgz-2,100G:1," router_gid="359" router_name="r2-d-gdgz-gdlt">
+      <dataset name="counts_packets">
+        <item id="1" name="OUT">
+          <key id="1" name="OUT"/>
+          <class type="value">
+            <current value="62434"/>
+            <avg value="59314"/>
+            <max value="78018"/>
+            <pct95 value="74750"/>
+            <sample value="0|0|74750|76150|74734|78018|72634|74550|74367|74384|62400|58084|62284|62384|60301|60834|60150|61500|63350|61751|62834|62117|59167|59050|63000|0|62800|60400|62934|60250|59750|68467|59434|60734|62434"/>
+            <linear_fit offset="72585.054862" slope="-433.612927"/>
+          </class>
+        </item>
+        <item id="0" name="IN">
+          <key id="0" name="IN"/>
+          <class type="value">
+            <current value="102584"/>
+            <avg value="12117"/>
+            <max value="104984"/>
+            <pct95 value="101451"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|101451|0|100867|104984|0|14233|0|0|0|0|0|0|102584"/>
+            <linear_fit offset="99469.169014" slope="-554.748826"/>
+          </class>
+        </item>
+      </dataset>
+    </instance>
+    <instance id="23527672" type="interface" name="TenGigE0/8/0/5" router_gid="359" router_name="r2-d-gdgz-gdlt">
+      <dataset name="counts_packets">
+        <item id="0" name="IN">
+          <key id="0" name="IN"/>
+          <class type="value">
+            <current value="62434"/>
+            <avg value="59314"/>
+            <max value="78018"/>
+            <pct95 value="74750"/>
+            <sample value="0|0|74750|76150|74734|78018|72634|74550|74367|74384|62400|58084|62284|62384|60301|60834|60150|61500|63350|61751|62834|62117|59167|59050|63000|0|62800|60400|62934|60250|59750|68467|59434|60734|62434"/>
+            <linear_fit offset="72585.054862" slope="-433.612927"/>
+          </class>
+        </item>
+      </dataset>
+    </instance>
+    <instance id="23527978" type="interface" name="Bundle-Ether30.100" router_gid="359" router_name="r2-d-gdgz-gdlt">
+      <dataset name="counts_packets">
+        <item id="1" name="OUT">
+          <key id="1" name="OUT"/>
+          <class type="value">
+            <current value="102584"/>
+            <avg value="12117"/>
+            <max value="104984"/>
+            <pct95 value="101451"/>
+            <sample value="0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|101451|0|100867|104984|0|14233|0|0|0|0|0|0|102584"/>
+            <linear_fit offset="99469.169014" slope="-554.748826"/>
+          </class>
+        </item>
+      </dataset>
+    </instance>
+    <instance id="353" type="router" name="C6">
+      <dataset name="counts_packets">
+        <item id="-1" name="N/A">
+          <key id="-1" name="N/A"/>
+          <class type="value">
+            <current value="19533"/>
+            <avg value="50845"/>
+            <max value="80801"/>
+            <pct95 value="79884"/>
+            <sample value="0|0|80801|78317|77567|80484|0|79584|79884|77401|71950|65434|65350|68400|66467|63700|65617|62950|66800|65684|0|74134|3933|0|0|0|0|73634|66517|65600|64667|72467|62817|59917|19533"/>
+            <linear_fit offset="80128.371217" slope="-816.717070"/>
+          </class>
+        </item>
+      </dataset>
+    </instance>
+    <instance id="359" type="router" name="r2-d-gdgz-gdlt">
+      <dataset name="counts_packets">
+        <item id="-1" name="N/A">
+          <key id="-1" name="N/A"/>
+          <class type="value">
+            <current value="165018"/>
+            <avg value="71431"/>
+            <max value="165018"/>
+            <pct95 value="160618"/>
+            <sample value="0|0|74750|76150|74734|78018|72634|74550|74367|74384|62400|58084|62284|62384|60301|60834|60150|61500|63350|61751|62834|62117|160618|59050|163868|104984|62800|74634|62934|60250|59750|68467|59434|60734|165018"/>
+            <linear_fit offset="65017.870544" slope="596.847259"/>
+          </class>
+        </item>
+      </dataset>
+    </instance>
+    <status_summary time="0.40"/>
+    <status type="success" collector="10.255.255.2" gid="115" name="CP-KXC-1" time="0.34" bytes="3404" items="9" earliest_bin="1520931015" latest_bin="1520933115" earliest_bin_ascii="03/13/2018 08:50:15 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000"/>
+    <status type="success" collector="10.255.252.2" gid="509" name="cp1" time="0.16" bytes="381" items="0" earliest_bin="1520931015" latest_bin="1520933115" earliest_bin_ascii="03/13/2018 08:50:15 +0000" latest_bin_ascii="03/13/2018 09:25:15 +0000"/>
+  </query-reply></peakflow>
