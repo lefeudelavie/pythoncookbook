@@ -7,7 +7,6 @@ _sentinel = object()
 def procuder(out_q):
     while running:
         # procude data
-        ....
         out_q.put(data)
     out_q.put(_sentinel)
 
