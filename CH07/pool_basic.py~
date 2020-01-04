@@ -1,0 +1,12 @@
+import multiprocessing as mp
+
+def test():
+    pass
+
+p = mp.Pool(processes = 5)
+
+for i in range(10):
+    p.apply_async(test) 
+
+p.close() 
+p.join()
